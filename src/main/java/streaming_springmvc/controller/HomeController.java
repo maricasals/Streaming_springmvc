@@ -14,13 +14,13 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @author tom
  */
 @Controller
-public class EffacemoiController {
+public class HomeController {
     
-    @RequestMapping(value = "/effacemoi", method = RequestMethod.GET)
-    public String effaceMoi(){
+    @RequestMapping(value = "/home", method = RequestMethod.GET)
+    public String home(){
         
         System.out.println("Passe par ici");
         
-        return "effacemoi";
+        return "home";
     }
 }
